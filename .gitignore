@@ -5,4 +5,6 @@ credentials.json
 db.sqlite3
 token.json
 token.pkl
+google_oauth_client_id_cred.json
+env/
 

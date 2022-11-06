@@ -12,7 +12,7 @@ import os
 os.environ['OAUTHLIB_INSECURE_TRANSPORT'] = '1'
 # This variable specifies the name of a file that contains the OAuth 2.0
 # information for this application, including its client_id and client_secret.
-CLIENT_SECRETS_FILE = "credentials.json"
+CLIENT_SECRETS_FILE = "google_oauth_client_id_cred.json"
 
 # This OAuth 2.0 access scope allows for full read/write access to the
 # authenticated user's account and requires requests to use an SSL connection and REDIRECT URL.
@@ -20,7 +20,7 @@ SCOPES = ['https://www.googleapis.com/auth/calendar',
           'https://www.googleapis.com/auth/userinfo.email',
           'https://www.googleapis.com/auth/userinfo.profile',
           'openid']
-REDIRECT_URL = 'http://127.0.0.1:8080/rest/v1/calendar/redirect'
+REDIRECT_URL = 'https://8080-prabal01pat-googlecalen-9xn1bf5436b.ws-us74.gitpod.io/rest/v1/calendar/redirect'
 API_SERVICE_NAME = 'calendar'
 API_VERSION = 'v3'
 
